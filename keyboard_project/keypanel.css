@@ -1,0 +1,30 @@
+#keypanel{
+ position:static;
+ bottom:0px;
+ text-align:center;
+ width:100%;
+ background-color:#FFF;
+ filter:alpha(opacity=85);
+ -moz-opacity:0.85;
+ -khtml-opacity: 0.85;
+ opacity:0.85;
+ z-index:99;
+}
+
+#keypanel input{
+ width:4em;
+ height:3.2em;
+ margin:0.2em;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: 1px solid #DF0101;
+}
+#keypanel div{
+ display:inline-block;
+ width:4em;
+ height:3.2em;
+ margin:0.2em;
+}
+#keypanel input.spacekey{
+ width:15em;
+}
