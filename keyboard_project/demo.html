@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta name="" content="" charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="keypanel.css">
+  <title>Demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+  <style>
+  textarea{
+    width: 500px;
+    height: 20em;
+  }
+  /* #draggable {
+    width: 100px;
+    height: 20px;
+  } */
+  </style>
+</head>
+<body>
+  <form name="form1">
+  <div align="center">
+    <!--題名の設定-->
+    <font size="6">Demo</font><br>
+    <!--入力 欄の設定-->
+    <textarea name="msg" cols="30" rows="10"></textarea>
+
+  <!--Drag Object-->
+  <div class="draggable">
+    <input id="dynamicinput" type="text" value="" size="" style="background-color:transparent;" onkeyup="dynamicLength();">
+  </div>
+<!--keypanelのjavascript呼び出し-->
+<script type="text/javascript" src="keypanel.js"></script>
+<!-- dragcontentの呼び出し -->
+<script type="text/javascript" src="dragcontent.js"></script>
+<!-- 動的に入力欄が変化する -->
+<script type="text/javascript" src="dynamic_input_form.js"></script>
+
+</div>
+</body>
+</html>
